@@ -5,7 +5,7 @@ Web App JavaScript Calculator
 
 Creator: [NitinTomar](https://github.com/nitin0002)
 
-https://calculadora-ip.vercel.app
+https://calculator-js-silk.vercel.app/
 
 ## Description
 This was a project that I did with the objective of having a functional responsive calculator with an excellent design. The best feature is the dark mode. I believe that to take care of the user experience, you have to pay attention to the small details.
