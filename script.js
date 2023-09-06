@@ -11,8 +11,8 @@ function printOutput(num){
 	if(num==""){
 		document.getElementById("output-value").innerText=num;
 	}
-	else if (num=="Demasiados dígitos"){
-		document.getElementById("output-value").innerText="Demasiados dígitos";
+	else if (num=="Too many Digits"){
+		document.getElementById("output-value").innerText="Too many Digits";
 	}
 	else{
 		document.getElementById("output-value").innerText=getFormattedNumber(num);
@@ -58,7 +58,7 @@ for(var i =0;i<operator.length;i++){
 					var result=eval(history);
 					result = result.toString();
 					if (result.length > 12) {
-						printOutput("Demasiados dígitos");
+						printOutput("Too many Digits");
 						printHistory("");
 					}
 					else {
@@ -84,7 +84,7 @@ for(var i =0;i<number.length;i++){
 		if(output!=NaN){ //if output is a number
 			output = output.toString()
 			if ((output.length) > 13) {
-				printOutput("Demasiados dígitos");
+				printOutput("Too many Digits");
 			} else{
 			output = Number(output);
 			output=output+this.id;
